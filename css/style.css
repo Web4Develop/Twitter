@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: rgb(0, 0, 0);
+}
+
+/*----- container -----*/
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 35px 11px;
+}
+
+/*----- leftSide -----*/
+.leftSide {
+  background: rgb(135, 206, 235);
+  text-align: left;
+  padding-left: 50px;
+  color:rgb(255, 255, 255);
+}
+
+.leftSide h1 {
+  font-size: 3em;
+}
+
+.leftSide .text {
+  line-height: 2em;
+  font-size: 1.2em;
+}
+
+/*----- border -----*/
+.border {
+  border: solid white 5px;
+  border-radius: 10px;
+  padding: 0px;
+  width: 40vw;
+  height: auto;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: 50px;
+}
+
+.border2 {
+  border: solid darkgoldenrod 5px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.border img, .border h2, .border p, .border button {
+  position: relative;
+}
+
+.border img {
+  float: left;
+  width: auto;
+  height: 150px;
+  top: 20px;
+}
+
+.border h2, .border p {
+  left: 20px;
+  bottom: 20px;
+  line-height: 2em;
+  padding-right: 10px;
+}
+
+.border h2 {
+  font-variant-caps: all-petite-caps;
+}
+
+.border button {
+  left: 180px;
+  bottom: 20px;
+  font-size: 1.5em;
+  background: darkgoldenrod;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+
+/*----- rightSide-----*/
+.rightSide img {
+  width: 44vw;
+  height: 89vh;
+}
