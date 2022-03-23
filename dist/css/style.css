@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container,
+.boxText button {
+  color: white;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+.header {
+  background: skyblue;
+}
+
+.header h1 {
+  margin: 20px 0;
+}
+
+.header p {
+  margin: 0 0 20px;
+  line-height: 25px;
+}
+
+.header .box {
+  margin: 20px;
+  padding: 10px;
+  background: white;
+  border-radius: 20px;
+}
+
+.header .box .boxBorder {
+  border: solid 3px #006aeb;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  border-radius: 20px;
+}
+
+.header .box .boxBorder .boxImage img {
+  width: 100px;
+  display: block;
+  margin: 70px 10px;
+}
+
+.header .box .boxBorder .boxText {
+  margin: 20px 0;
+  padding: 0 10px;
+  color: black;
+}
+
+.header .box .boxBorder .boxText h1 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.header .box .boxBorder .boxText button {
+  display: block;
+  margin: 0 auto 10px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #006aeb;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .image img {
+    width: 48vw;
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .header .box {
+    margin: 100px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

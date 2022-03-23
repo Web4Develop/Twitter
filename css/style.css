@@ -16,7 +16,7 @@ body {
   background: rgb(135, 206, 235);
   text-align: left;
   padding-left: 50px;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .leftSide h1 {
@@ -48,7 +48,10 @@ body {
   padding: 10px;
 }
 
-.border img, .border h2, .border p, .border button {
+.border img,
+.border h2,
+.border p,
+.border button {
   position: relative;
 }
 
@@ -59,7 +62,8 @@ body {
   top: 20px;
 }
 
-.border h2, .border p {
+.border h2,
+.border p {
   left: 20px;
   bottom: 20px;
   line-height: 2em;
